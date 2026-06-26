@@ -26,6 +26,7 @@ public class RainGear {
 
     private String imageUrl;
 
+    @Column(name = "`condition`")
     @Enumerated(EnumType.STRING)
     private GearCondition condition;
 
