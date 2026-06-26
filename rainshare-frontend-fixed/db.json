@@ -1,0 +1,75 @@
+{
+  "roles": [
+    { "id": 1, "role_name": "admin" },
+    { "id": 2, "role_name": "donor" },
+    { "id": 3, "role_name": "renter" }
+  ],
+  "users": [
+    { "id": 1, "full_name": "Admin User", "email": "admin@rain.com", "password": "admin123", "phone": "9000000001", "address": "Mumbai HQ", "role": "admin", "active": true, "createdAt": "2024-01-01" },
+    { "id": 2, "full_name": "Priya Sharma", "email": "donor1@rain.com", "password": "donor123", "phone": "9000000002", "address": "Andheri, Mumbai", "role": "donor", "active": true, "createdAt": "2024-01-10" },
+    { "id": 3, "full_name": "Rahul Verma", "email": "donor2@rain.com", "password": "donor123", "phone": "9000000003", "address": "Bandra, Mumbai", "role": "donor", "active": true, "createdAt": "2024-01-15" },
+    { "id": 4, "full_name": "Sneha Patil", "email": "donor3@rain.com", "password": "donor123", "phone": "9000000004", "address": "Dadar, Mumbai", "role": "donor", "active": true, "createdAt": "2024-02-01" },
+    { "id": 5, "full_name": "Arjun Mehta", "email": "donor4@rain.com", "password": "donor123", "phone": "9000000005", "address": "Powai, Mumbai", "role": "donor", "active": false, "createdAt": "2024-02-05" },
+    { "id": 6, "full_name": "Kavya Nair", "email": "renter1@rain.com", "password": "renter123", "phone": "9000000006", "address": "Pune", "role": "renter", "active": true, "createdAt": "2024-01-20" },
+    { "id": 7, "full_name": "Dev Joshi", "email": "renter2@rain.com", "password": "renter123", "phone": "9000000007", "address": "Thane", "role": "renter", "active": true, "createdAt": "2024-02-08" },
+    { "id": 8, "full_name": "Meera Singh", "email": "renter3@rain.com", "password": "renter123", "phone": "9000000008", "address": "Nashik", "role": "renter", "active": true, "createdAt": "2024-02-10" },
+    { "id": 9, "full_name": "Rohan Das", "email": "renter4@rain.com", "password": "renter123", "phone": "9000000009", "address": "Nagpur", "role": "renter", "active": true, "createdAt": "2024-02-14" },
+    { "id": 10, "full_name": "Anita Kulkarni", "email": "renter5@rain.com", "password": "renter123", "phone": "9000000010", "address": "Kolhapur", "role": "renter", "active": true, "createdAt": "2024-03-01" },
+    { "id": 11, "full_name": "Vikram Rao", "email": "donor5@rain.com", "password": "donor123", "phone": "9000000011", "address": "Vashi, Navi Mumbai", "role": "donor", "active": true, "createdAt": "2024-03-10" },
+    { "id": 12, "full_name": "Pooja Iyer", "email": "renter6@rain.com", "password": "renter123", "phone": "9000000012", "address": "Kalyan", "role": "renter", "active": true, "createdAt": "2024-03-12" }
+  ],
+  "categories": [
+    { "id": 1, "name": "Umbrella", "description": "All types of umbrellas — compact, golf, travel" },
+    { "id": 2, "name": "Raincoat", "description": "Waterproof coats and jackets for heavy rain" },
+    { "id": 3, "name": "Rain Boots", "description": "Rubber and waterproof boots for wet conditions" },
+    { "id": 4, "name": "Poncho", "description": "Lightweight rain ponchos for quick coverage" },
+    { "id": 5, "name": "Rain Pants", "description": "Waterproof trousers and over-pants" }
+  ],
+  "rain_gear": [
+    { "id": 1, "title": "Heavy-duty Golf Umbrella", "description": "Large 62-inch windproof golf umbrella. Great for family use or outdoor events.", "category_id": 1, "owner_id": 2, "condition": "good", "rent_price": 30, "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-01-12" },
+    { "id": 2, "title": "Compact Travel Umbrella", "description": "Foldable auto-open umbrella. Fits in any bag.", "category_id": 1, "owner_id": 2, "condition": "new", "rent_price": 0, "image_url": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-01-13" },
+    { "id": 3, "title": "Adult Waterproof Raincoat", "description": "Size L. Fully seam-sealed, breathable lining. Yellow with reflective strips.", "category_id": 2, "owner_id": 3, "condition": "good", "rent_price": 50, "image_url": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab12?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-01-18" },
+    { "id": 4, "title": "Kids Rain Jacket Blue", "description": "Size 8–10 years. Hooded, adjustable cuffs.", "category_id": 2, "owner_id": 3, "condition": "fair", "rent_price": 0, "image_url": "https://images.unsplash.com/photo-1543168256-418811576931?w=400&h=300&fit=crop", "status": "donated", "createdAt": "2024-01-20" },
+    { "id": 5, "title": "Rubber Rain Boots Size 42", "description": "Classic Wellington boots. Waterproof, non-slip sole.", "category_id": 3, "owner_id": 4, "condition": "good", "rent_price": 40, "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop", "status": "rented", "createdAt": "2024-02-03" },
+    { "id": 6, "title": "Kids Rain Boots Pink Size 28", "description": "Cute pink boots for toddlers. Non-slip, easy pull-on.", "category_id": 3, "owner_id": 4, "condition": "new", "rent_price": 0, "image_url": "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-02-06" },
+    { "id": 7, "title": "Emergency Rain Poncho Pack (5)", "description": "Pack of 5 disposable ponchos. Great for trekking or events.", "category_id": 4, "owner_id": 5, "condition": "new", "rent_price": 0, "image_url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-02-08" },
+    { "id": 8, "title": "Reusable Heavy Poncho Green", "description": "Durable PVC poncho with hood. One size fits most adults.", "category_id": 4, "owner_id": 11, "condition": "good", "rent_price": 25, "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-03-11" },
+    { "id": 9, "title": "Waterproof Hiking Pants", "description": "Lightweight trail rain pants. Size M. Packable into pocket.", "category_id": 5, "owner_id": 2, "condition": "good", "rent_price": 35, "image_url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-01-14" },
+    { "id": 10, "title": "Biker Rain Overtrousers", "description": "Full-coverage waterproof over-pants for cyclists. Size L.", "category_id": 5, "owner_id": 3, "condition": "fair", "rent_price": 0, "image_url": "https://images.unsplash.com/photo-1519335337423-a3357c2cd12e?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-01-22" },
+    { "id": 11, "title": "Premium Trench Coat", "description": "Stylish long waterproof trench. Size M. Belted. Navy blue.", "category_id": 2, "owner_id": 11, "condition": "new", "rent_price": 80, "image_url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-03-12" },
+    { "id": 12, "title": "Wind & Rain Windbreaker", "description": "Packable windbreaker jacket. Unisex S/M.", "category_id": 2, "owner_id": 4, "condition": "good", "rent_price": 45, "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-02-04" },
+    { "id": 13, "title": "Wooden Handle Umbrella", "description": "Classic J-handle umbrella. Auto-open. Black.", "category_id": 1, "owner_id": 5, "condition": "good", "rent_price": 20, "image_url": "https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-02-09" },
+    { "id": 14, "title": "Kids Frog Umbrella", "description": "Fun frog-faced kids umbrella. Age 3–7.", "category_id": 1, "owner_id": 3, "condition": "new", "rent_price": 0, "image_url": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-01-21" },
+    { "id": 15, "title": "Ankle Rain Boots Size 38", "description": "Short ankle boots in olive green. Waterproof, slip-on.", "category_id": 3, "owner_id": 11, "condition": "new", "rent_price": 35, "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop", "status": "available", "createdAt": "2024-03-13" }
+  ],
+  "donations": [
+    { "id": 1, "gear_id": 2, "donor_id": 2, "donation_date": "2024-02-01", "status": "confirmed" },
+    { "id": 2, "gear_id": 4, "donor_id": 3, "donation_date": "2024-02-15", "status": "completed" },
+    { "id": 3, "gear_id": 6, "donor_id": 4, "donation_date": "2024-03-01", "status": "pending" },
+    { "id": 4, "gear_id": 7, "donor_id": 5, "donation_date": "2024-03-05", "status": "pending" },
+    { "id": 5, "gear_id": 10, "donor_id": 3, "donation_date": "2024-03-10", "status": "confirmed" },
+    { "id": 6, "gear_id": 14, "donor_id": 3, "donation_date": "2024-03-15", "status": "pending" }
+  ],
+  "rentals": [
+    { "id": 1, "gear_id": 5, "renter_id": 6, "rent_date": "2024-03-01", "return_date": "2024-03-07", "status": "returned" },
+    { "id": 2, "gear_id": 1, "renter_id": 7, "rent_date": "2024-03-10", "return_date": "2024-03-17", "status": "active" },
+    { "id": 3, "gear_id": 9, "renter_id": 8, "rent_date": "2024-03-12", "return_date": "2024-03-19", "status": "pending" },
+    { "id": 4, "gear_id": 3, "renter_id": 6, "rent_date": "2024-03-15", "return_date": "2024-03-22", "status": "active" },
+    { "id": 5, "gear_id": 12, "renter_id": 9, "rent_date": "2024-03-18", "return_date": "2024-03-25", "status": "pending" },
+    { "id": 6, "gear_id": 8, "renter_id": 10, "rent_date": "2024-02-20", "return_date": "2024-02-27", "status": "returned" },
+    { "id": 7, "gear_id": 11, "renter_id": 12, "rent_date": "2024-03-20", "return_date": "2024-03-27", "status": "active" },
+    { "id": 8, "gear_id": 13, "renter_id": 7, "rent_date": "2024-03-05", "return_date": "2024-03-06", "status": "returned" }
+  ],
+  "volunteers": [
+    { "id": 1, "user_id": 6, "city": "Pune", "availability": ["weekends", "evenings"], "status": "active" },
+    { "id": 2, "user_id": 7, "city": "Thane", "availability": ["weekdays"], "status": "active" },
+    { "id": 3, "user_id": 8, "city": "Nashik", "availability": ["weekends"], "status": "inactive" },
+    { "id": 4, "user_id": 2, "city": "Mumbai", "availability": ["weekdays", "weekends", "evenings"], "status": "active" }
+  ],
+  "activityLog": [
+    { "id": 1, "admin_id": 1, "action": "Approved donation #2", "entity": "donation", "timestamp": "2024-02-15T10:30:00Z" },
+    { "id": 2, "admin_id": 1, "action": "Deactivated user #5", "entity": "user", "timestamp": "2024-02-20T14:00:00Z" },
+    { "id": 3, "admin_id": 1, "action": "Added category Rain Pants", "entity": "category", "timestamp": "2024-03-01T09:00:00Z" },
+    { "id": 4, "admin_id": 1, "action": "Approved rental #2", "entity": "rental", "timestamp": "2024-03-10T11:00:00Z" }
+  ]
+}
