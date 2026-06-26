@@ -6,8 +6,6 @@ RainShare is a web-based platform that allows people to rent, borrow, and donate
 
 RainShare connects these users through a simple, secure, and user-friendly platform where equipment can be listed, rented, or donated. The application also provides an admin panel to manage users, gear listings, rentals, and donations.
 
----
-
 # Problem Statement
 
 Outdoor equipment is often expensive, making it difficult for many people to purchase gear for occasional use. At the same time, many owners have equipment that remains unused after one or two trips.
