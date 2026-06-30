@@ -35,6 +35,7 @@ Users can:
 - Donate equipment
 - Save favorite items in a wishlist
 - Track rental and donation requests
+- pay the rend directly 
 
 Administrators can:
 
@@ -43,6 +44,7 @@ Administrators can:
 - Manage gear listings
 - Monitor donations
 - View platform statistics through an admin dashboard
+
 
 The platform encourages sustainable sharing while making outdoor activities more affordable and accessible.
 
@@ -60,6 +62,7 @@ The platform encourages sustainable sharing while making outdoor activities more
 - Responsive User Interface
 - Admin Dashboard
 - Redux State Management
+- rental payment available
 
 - ---
 
@@ -185,7 +188,7 @@ The project can be extended with several advanced features:
 - Generates income for gear owners
 - Provides a secure rental process
 - Improves accessibility to outdoor adventures
-
+- ditect payent method available
 ---
 
 # Conclusion
