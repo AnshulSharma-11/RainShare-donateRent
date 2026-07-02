@@ -190,6 +190,11 @@ The project can be extended with several advanced features:
 - Improves accessibility to outdoor adventures
 - ditect payent method available
 ---
+# To start the backend 
+- mvnw spring-boot:run
+
+# To start the frontend 
+- npm start
 
 # Conclusion
 
